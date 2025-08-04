@@ -1,5 +1,5 @@
 # Pattern Recognition in Spiking Neural Networks and Synaptic Delays
-This project explores pattern recognition in Spiking Neural Networks (SNNs) with a focus on the organization and impact of synaptic delays. The simulations are conducted using the NEST Simulator within a Jupyter Notebook environment, all containerized with Docker.
+A standardized and containerized environment for building and analyzing Spiking Neural Network (SNN) models. This template uses Docker Compose to launch a NEST Simulator instance inside a Jupyter Notebook environment, providing a reproducible and consistent setup for research on neural network dynamics.
 
 ## Getting Started
 To get the project up and running, you'll need Docker and Docker Compose installed on your system.
