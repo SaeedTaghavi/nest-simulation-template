@@ -7,8 +7,8 @@ To get the project up and running, you'll need Docker and Docker Compose install
 1. Clone the repository:
 
 ``` bash
-git clone https://github.com/SaeedTaghavi/pattern-recognition-synaptic-delay
-cd pattern-recognition-synaptic-delay
+git clone https://github.com/SaeedTaghavi/nest-simulation-template
+cd nest-simulation-template
 ```
 2. Start the Docker container:
 
