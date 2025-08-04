@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+
+  nest-notebook:
+    container_name: nest-pattern-recognition-synaptic-delay
+    # image: nest/nest-simulator:3.8
+    build: .  # Use the Dockerfile in the current directory
+    mem_limit: 50G
+    mem_reservation: 2G
+    volumes:
+      - .:/opt/data
+    environment:
+      PASSWORD: "pass"
+      JUPYTER_TOKEN: "easy"
+      LOCAL_USER_ID: "`id -u $USER`"
+      NEST_CONTAINER_MODE: "notebook"
+      PYTHONPATH: "/opt/data"
+    working_dir: /opt/data
+    ports:
+      - "81:8080"  #maps host port 8081 to container port 8080. In this case, you would access the Jupyter Notebook by navigating to http://localhost:81

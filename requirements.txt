@@ -1,0 +1,9 @@
+# Formatting
+black
+autopep8
+
+#statistics
+pandas
+numpy
+matplotlib
+seaborn
