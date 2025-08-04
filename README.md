@@ -28,6 +28,8 @@ Use the password or token configured in the `docker-compose.yml` file. By defaul
 .
 ├── notebooks/
 │   └── (all jupyter notebooks go here)
+├── references/
+│   └── (contains all source materials, papers, books, etc.)
 ├── scripts/
 │   └── helper.py
 │   └── __init__.py
@@ -40,6 +42,8 @@ Use the password or token configured in the `docker-compose.yml` file. By defaul
 └── README.md
 ```
 `notebooks/`: This directory is where you store your Jupyter notebooks for developing, running, and analyzing simulations.
+
+`references/`: This directory contains all the source materials used for this project, including research papers, books, and BibTeX files for citations.
 
 `scripts/`: This directory contains reusable Python modules, such as helper.py, which centralizes functions for your simulations. The __init__.py file turns this folder into a Python package, allowing you to import functions from it cleanly.
 
